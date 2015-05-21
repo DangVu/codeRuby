@@ -54,3 +54,6 @@ puts key_words.join(' ')
 puts "Percentage of stop word in sentence"
 puts "#{((key_words.length.to_f / words.length.to_f) * 100).to_i} %"
 
+#scan: tim nhung ky tu dung vs dieu kien ma minh define
+#split: cat ra cho den nhung dk ma minh define (mac dinh dk la khoang trang)
+# vd : "this is $100 and $10000".scan()
